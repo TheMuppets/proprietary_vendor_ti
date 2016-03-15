@@ -8,7 +8,6 @@ endif
 
 PRODUCT_COPY_FILES += \
 	$(VENDOR_FOLDER)/proprietary/etc/powervr.ini:system/etc/powervr.ini \
-	$(VENDOR_FOLDER)/proprietary/vendor/lib/egl/libEGL_POWERVR_$(VENDOR_SGX_CORE).so:system/vendor/lib/egl/libEGL_POWERVR_$(VENDOR_SGX_CORE).so \
 	$(VENDOR_FOLDER)/proprietary/vendor/lib/egl/libGLESv1_CM_POWERVR_$(VENDOR_SGX_CORE).so:system/vendor/lib/egl/libGLESv1_CM_POWERVR_$(VENDOR_SGX_CORE).so \
 	$(VENDOR_FOLDER)/proprietary/vendor/lib/egl/libGLESv2_POWERVR_$(VENDOR_SGX_CORE).so:system/vendor/lib/egl/libGLESv2_POWERVR_$(VENDOR_SGX_CORE).so \
 	$(VENDOR_FOLDER)/proprietary/vendor/lib/hw/gralloc.omap$(TARGET_BOARD_OMAP_CPU).so:system/vendor/lib/hw/gralloc.omap$(TARGET_BOARD_OMAP_CPU).so \
