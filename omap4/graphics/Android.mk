@@ -1,7 +1,7 @@
 LOCAL_PATH := $(call my-dir)
 
 ifeq ($(TARGET_BOARD_PLATFORM),omap4)
-ifneq ($(filter espresso3g espressowifi maguro maserati p3100 p3110 p5100 p5110 spyder targa tuna toro toroplus umts_spyder,$(TARGET_DEVICE)),)
+ifneq ($(filter acclaim espresso3g espressowifi maguro maserati p3100 p3110 p5100 p5110 spyder targa tuna toro toroplus umts_spyder,$(TARGET_DEVICE)),)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := libglslcompiler
